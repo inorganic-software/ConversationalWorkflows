@@ -1,0 +1,30 @@
+name: 🧰 Pull Request CI
+on:
+  push:
+    paths-ignore:
+      - '**/*.yaml'
+      - '*.md'
+      - '**/*.md'
+jobs:
+  build_and_test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    strategy:
+      matrix:
+        java: [ 21 ]
+    steps:
+      - name: 👓 Checkout repository
+        uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8
+      - name: 👷 Setup Java {{ matrix.java }}
+        uses: actions/setup-java@dded0888837ed1f317902acf8a20df0ad188d165
+        with:
+          distribution: 'temurin'
+          java-version: ${{ matrix.java }}
+          check-latest: true
+          cache: gradle
+      - name: Grant execute permission for gradlew
+        run: chmod +x gradlew
+      - name: Check Spotless
+        run: ./gradlew spotlessCheck
+      - name: Build with Gradle
+        run: ./gradlew build

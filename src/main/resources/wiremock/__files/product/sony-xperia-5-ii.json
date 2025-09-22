@@ -1,0 +1,18 @@
+[
+  {
+    "productId": 6,
+    "productBaseId": 6,
+    "name": "Sony Xperia 5 II",
+    "status": 1,
+    "releaseDate": "2020-10-01",
+    "retireDate": "2023-10-01",
+    "sapOrderingAuxId": 22,
+    "retrievable": true,
+    "purchasePrice": 849.0,
+    "phPrice": 26.99,
+    "reference": "SX5II-BLK",
+    "inwarehousePrice": 410.0,
+    "currency": "EUR",
+    "stockProperty": "Main Warehouse"
+  }
+]

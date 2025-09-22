@@ -1,0 +1,18 @@
+[
+  {
+    "productId": 3,
+    "productBaseId": 3,
+    "name": "Google Pixel 6",
+    "status": 1,
+    "releaseDate": "2021-10-19",
+    "retireDate": "2024-10-19",
+    "sapOrderingAuxId": 14,
+    "retrievable": true,
+    "purchasePrice": 599.0,
+    "phPrice": 20.99,
+    "reference": "PIX6-ORA",
+    "inwarehousePrice": 300.0,
+    "currency": "EUR",
+    "stockProperty": "Online Stock"
+  }
+]

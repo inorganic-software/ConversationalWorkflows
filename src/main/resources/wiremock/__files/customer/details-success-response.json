@@ -1,0 +1,47 @@
+{
+  "id": "123e4567-e89b-12d3-a456-556642440000",
+  "external_id": "214748364",
+  "created_at": "2022-01-01T01:01:01Z",
+  "ended_at": "2022-01-01T01:01:01Z",
+  "updated_at": "2022-01-01T01:01:01Z",
+  "type": "PRIVATE_CUSTOMER",
+  "preferred_language": "es",
+  "segment": "CONSUMER",
+  "contact_info": {
+    "phone_numbers": [
+      {
+        "country_code": "+34",
+        "number": "615667898",
+        "type": "MOBILE"
+      }
+    ],
+    "emails": [
+      {
+        "email": "pablo.granados@hivemq.com"
+      }
+    ],
+    "addresses": [
+      {
+        "address_lines": [
+          "Calle Mayor 2, 3º A"
+        ],
+        "postal_code": "28039",
+        "locality": "Fuenlabrada",
+        "administrative_area": "Madrid",
+        "region_code": "ES"
+      }
+    ]
+  },
+  "personal_info": {
+    "identity_document": {
+      "number": "12345678A",
+      "type": "NIF"
+    },
+    "name": "Pablo",
+    "first_surname": "Gonzalez",
+    "second_surname": "Granados",
+    "gender": "MALE",
+    "nationality": "ES",
+    "birthdate": "2022-01-01"
+  }
+}

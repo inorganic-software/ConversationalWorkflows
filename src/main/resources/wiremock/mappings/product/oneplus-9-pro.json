@@ -1,0 +1,18 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPathPattern": "/orgs/orange/base_products/products/search",
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": "$[?(@.name =~ /^[oO][nN][eE][pP][lL][uU][sS](\\s+[9][ ]*[pP][rR][oO])?$/)]"
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "product/oneplus-9-pro.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

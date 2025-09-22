@@ -1,0 +1,18 @@
+[
+  {
+    "productId": 1,
+    "productBaseId": 1,
+    "name": "iPhone 13",
+    "status": 1,
+    "releaseDate": "2021-09-24",
+    "retireDate": "2024-09-30",
+    "sapOrderingAuxId": 10,
+    "retrievable": true,
+    "purchasePrice": 180.5,
+    "phPrice": 24.99,
+    "reference": "IPH13-BLK",
+    "inwarehousePrice": 50.5,
+    "currency": "EUR",
+    "stockProperty": "Almacén Principal"
+  }
+]

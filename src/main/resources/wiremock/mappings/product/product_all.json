@@ -1,0 +1,18 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPathPattern": "/orgs/orange/base_products/products/search",
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": "$[?(@.name == null || @.name == '')]"
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "product/product_all_ok.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

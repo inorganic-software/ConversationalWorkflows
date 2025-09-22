@@ -1,0 +1,289 @@
+{
+  "items": [
+    {
+      "id": "ce2f20cb-35df-4ffe-bca6-c0ed0c28cb39",
+      "legacy_id": 54,
+      "pre_scoring_id": "1564",
+      "type": "NETFLIX",
+      "catalogue_commercial_product_id": "7125",
+      "status": "ACTIVE",
+      "free_units_packages": [
+        {
+          "id": "ce2f20cb-35df-4ffe-bca6-c0ed0c28cb39",
+          "legacy_id": 457345,
+          "catalogue_free_units_packages_id": "124",
+          "activation_date": "2023-01-01T00:00:00Z",
+          "deactivation_date": "2025-01-05T03:30:15Z"
+        }
+      ],
+      "devices_related_info": {
+        "devices": [
+          {
+            "id": "ce2f20cb-35df-4ffe-bca6-c0ed0c28cb39",
+            "catalogue_commercial_device_id": "CDCVPU_150f5badaa706651e67c59061d373d7e7e",
+            "catalogue_device_id": "P09712MRC",
+            "reservation_id": "1567",
+            "signature_process_id": "18395",
+            "shipping_order_id": "18395",
+            "pickup_order_id": "P0000001",
+            "manufacturing_info": {
+              "id_type": "SERIAL_NUMBER",
+              "id": "9876543-AB-345"
+            },
+            "serial_number": "9876543-AB-345",
+            "mac_address": "00-B0-D0-63-C2-26",
+            "imei": "AA-BBBBBB-CCCCCC-D",
+            "acquisition_type": "BORROWED"
+          }
+        ],
+        "customer_financial_info": {
+          "bank_declared_income": 0,
+          "business_name": "",
+          "observations": "blabla",
+          "professional_usage": false,
+          "activity_country": "es",
+          "doc_expiration_date": "2017-09-15T22:00:00Z",
+          "profession_code": "PRIVATE_SECTOR_WORKER",
+          "funds_origin_code": "3RD",
+          "occupation_sector_code": "SERV"
+        },
+        "delivery_info": {
+          "contact_info": {
+            "name": "Pablo",
+            "surname": "Gonzalez Graandos",
+            "id_doc": {
+              "id_type": "NIF",
+              "id": "5012341234"
+            },
+            "phone_number": "696288378",
+            "email_address": "pablo.granados@hivemq.com"
+          },
+          "address": {
+            "street_type": "Calle",
+            "street_name": "Tellez",
+            "house_number": "12",
+            "additional_info": "Esc. Dcha 3 C",
+            "city": "Riaza",
+            "province": "Segovia",
+            "country": "es",
+            "post_code": "40500",
+            "address_code": "28000010758100012    OA   004C       ",
+            "address_additional_id": "123443554"
+          },
+          "delivery_type": "CUSTOMER_ADDRESS",
+          "dealer_code": "1234"
+        }
+      },
+      "last_status_update": "2023-01-05T03:30:15Z",
+      "last_status_reason": "FRAUD_CHECK_ONGOING",
+      "activation_date": "2023-01-01T00:00:00Z",
+      "deactivation_date": "2025-01-05T03:30:15Z",
+      "legacy_account_id": 245655,
+      "account_id": "ce2f20cb-35df-4ffe-bca6-c0ed0c28cb39",
+      "bundle_related_info": {
+        "id": "abcf20cb-35df-4ffe-bca6-c0ed0c28cb00",
+        "legacy_id": 790224234,
+        "catalogue_bundled_product_id": "8342",
+        "catalogue_bundled_commercial_product_id": "8432_BUNDLED_3P",
+        "mandatory": true
+      },
+      "creation_date": "2022-12-01T00:00:00Z",
+      "creation_system": "killflex.auth.masmovil.com",
+      "creation_user": "pablo.granados@hivemq.com",
+      "last_updated_date": "2023-01-08T12:00:05Z",
+      "deactivation_system": "killflex.auth.masmovil.com",
+      "deactivation_user": "pablo.granados@hivemq.com"
+    },
+    {
+      "id": "ce2f20cb-35df-4ffe-bca6-c0ed0c28cb39",
+      "legacy_id": 54,
+      "pre_scoring_id": "1564",
+      "type": "MOBILE",
+      "catalogue_commercial_product_id": "7125",
+      "status": "ACTIVE",
+      "free_units_packages": [
+        {
+          "id": "ce2f20cb-35df-4ffe-bca6-c0ed0c28cb39",
+          "legacy_id": 457345,
+          "catalogue_free_units_packages_id": "124",
+          "activation_date": "2023-01-01T00:00:00Z",
+          "deactivation_date": "2025-01-05T03:30:15Z"
+        }
+      ],
+      "devices_related_info": {
+        "devices": [
+          {
+            "id": "ce2f20cb-35df-4ffe-bca6-c0ed0c28cb39",
+            "catalogue_commercial_device_id": "CDCVPU_150f5badaa706651e67c59061d373d7e7e",
+            "catalogue_device_id": "P09712MRC",
+            "reservation_id": "1567",
+            "signature_process_id": "18395",
+            "shipping_order_id": "18395",
+            "pickup_order_id": "P0000001",
+            "manufacturing_info": {
+              "id_type": "SERIAL_NUMBER",
+              "id": "9876543-AB-345"
+            },
+            "serial_number": "9876543-AB-345",
+            "mac_address": "00-B0-D0-63-C2-26",
+            "imei": "AA-BBBBBB-CCCCCC-D",
+            "acquisition_type": "BORROWED"
+          }
+        ],
+        "customer_financial_info": {
+          "bank_declared_income": 0,
+          "business_name": "",
+          "observations": "blabla",
+          "professional_usage": false,
+          "activity_country": "es",
+          "doc_expiration_date": "2017-09-15T22:00:00Z",
+          "profession_code": "PRIVATE_SECTOR_WORKER",
+          "funds_origin_code": "3RD",
+          "occupation_sector_code": "SERV"
+        },
+        "delivery_info": {
+          "contact_info": {
+            "name": "Pablo",
+            "surname": "Gonzalez Granados",
+            "id_doc": {
+              "id_type": "NIF",
+              "id": "12345678A"
+            },
+            "phone_number": "615667898",
+            "email_address": "pablo.granados@hivemq.com"
+          },
+          "address": {
+            "street_type": "Calle",
+            "street_name": "Tellez",
+            "house_number": "12",
+            "additional_info": "Esc. Dcha 3 C",
+            "city": "Riaza",
+            "province": "Segovia",
+            "country": "es",
+            "post_code": "40500",
+            "address_code": "28000010758100012    OA   004C       ",
+            "address_additional_id": "123443554"
+          },
+          "delivery_type": "CUSTOMER_ADDRESS",
+          "dealer_code": "1234"
+        }
+      },
+      "last_status_update": "2023-01-05T03:30:15Z",
+      "last_status_reason": "OK",
+      "activation_date": "2023-01-01T00:00:00Z",
+      "deactivation_date": "2025-01-05T03:30:15Z",
+      "legacy_account_id": 245655,
+      "account_id": "ce2f20cb-35df-4ffe-bca6-c0ed0c28cb39",
+      "bundle_related_info": {
+        "id": "abcf20cb-35df-4ffe-bca6-c0ed0c28cb00",
+        "legacy_id": 790224234,
+        "catalogue_bundled_product_id": "8342",
+        "catalogue_bundled_commercial_product_id": "8432_BUNDLED_3P",
+        "mandatory": true
+      },
+      "creation_date": "2022-12-01T00:00:00Z",
+      "creation_system": "killflex.auth.masmovil.com",
+      "creation_user": "pablo.granados@hivemq.com",
+      "last_updated_date": "2023-01-08T12:00:05Z",
+      "deactivation_system": "killflex.auth.masmovil.com",
+      "deactivation_user": "pablo.granados@hivemq.com"
+    },
+    {
+      "id": "ce2f20cb-35df-4ffe-bca6-c0ed0c28cb39",
+      "legacy_id": 54,
+      "pre_scoring_id": "1564",
+      "type": "FIBER",
+      "catalogue_commercial_product_id": "7125",
+      "status": "ACTIVE",
+      "free_units_packages": [
+        {
+          "id": "ce2f20cb-35df-4ffe-bca6-c0ed0c28cb39",
+          "legacy_id": 457345,
+          "catalogue_free_units_packages_id": "124",
+          "activation_date": "2023-01-01T00:00:00Z",
+          "deactivation_date": "2025-01-05T03:30:15Z"
+        }
+      ],
+      "devices_related_info": {
+        "devices": [
+          {
+            "id": "ce2f20cb-35df-4ffe-bca6-c0ed0c28cb39",
+            "catalogue_commercial_device_id": "CDCVPU_150f5badaa706651e67c59061d373d7e7e",
+            "catalogue_device_id": "P09712MRC",
+            "reservation_id": "1567",
+            "signature_process_id": "18395",
+            "shipping_order_id": "18395",
+            "pickup_order_id": "P0000001",
+            "manufacturing_info": {
+              "id_type": "SERIAL_NUMBER",
+              "id": "9876543-AB-345"
+            },
+            "serial_number": "9876543-AB-345",
+            "mac_address": "00-B0-D0-63-C2-26",
+            "imei": "AA-BBBBBB-CCCCCC-D",
+            "acquisition_type": "BORROWED"
+          }
+        ],
+        "customer_financial_info": {
+          "bank_declared_income": 0,
+          "business_name": "",
+          "observations": "blabla",
+          "professional_usage": false,
+          "activity_country": "es",
+          "doc_expiration_date": "2017-09-15T22:00:00Z",
+          "profession_code": "PRIVATE_SECTOR_WORKER",
+          "funds_origin_code": "3RD",
+          "occupation_sector_code": "SERV"
+        },
+        "delivery_info": {
+          "contact_info": {
+            "name": "Pablo",
+            "surname": "Gonzalez Granados",
+            "id_doc": {
+              "id_type": "NIF",
+              "id": "12345678A"
+            },
+            "phone_number": "615667898",
+            "email_address": "pablo.granados@hivemq.com"
+          },
+          "address": {
+            "street_type": "Calle",
+            "street_name": "Tellez",
+            "house_number": "12",
+            "additional_info": "Esc. Dcha 3 C",
+            "city": "Riaza",
+            "province": "Segovia",
+            "country": "es",
+            "post_code": "40500",
+            "address_code": "28000010758100012    OA   004C       ",
+            "address_additional_id": "123443554"
+          },
+          "delivery_type": "CUSTOMER_ADDRESS",
+          "dealer_code": "1234"
+        }
+      },
+      "last_status_update": "2023-01-05T03:30:15Z",
+      "last_status_reason": "OK",
+      "activation_date": "2023-01-01T00:00:00Z",
+      "deactivation_date": "2025-01-05T03:30:15Z",
+      "legacy_account_id": 245655,
+      "account_id": "ce2f20cb-35df-4ffe-bca6-c0ed0c28cb39",
+      "bundle_related_info": {
+        "id": "abcf20cb-35df-4ffe-bca6-c0ed0c28cb00",
+        "legacy_id": 790224234,
+        "catalogue_bundled_product_id": "8342",
+        "catalogue_bundled_commercial_product_id": "8432_BUNDLED_3P",
+        "mandatory": true
+      },
+      "creation_date": "2022-12-01T00:00:00Z",
+      "creation_system": "killflex.auth.masmovil.com",
+      "creation_user": "pablo.granados@hivemq.com",
+      "last_updated_date": "2023-01-08T12:00:05Z",
+      "deactivation_system": "killflex.auth.masmovil.com",
+      "deactivation_user": "pablo.granados@hivemq.com"
+    }
+  ],
+  "limit": 5,
+  "offset": 15,
+  "total": 33
+}

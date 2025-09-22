@@ -1,0 +1,18 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/v2/orgs/yoigo/subscriptions",
+    "queryParameters": {
+      "account_id": {
+        "matches": ".*"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "subscriptions/subscriptions-fraud.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

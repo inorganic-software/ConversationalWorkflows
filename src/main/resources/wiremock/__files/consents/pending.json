@@ -1,0 +1,13 @@
+{
+  "statements": [
+    {
+      "id": "C01",
+      "choice": 0,
+      "choice_type": "PENDING",
+      "text": "Publicidad productos y servicios del grupo",
+      "description": "Aceptas recibir información sobre productos nuevos.",
+      "child_statements": [{}]
+    }
+  ],
+  "locale": "es_ES"
+}

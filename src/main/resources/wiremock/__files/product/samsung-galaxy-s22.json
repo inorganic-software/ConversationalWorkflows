@@ -1,0 +1,18 @@
+[
+  {
+    "productId": 2,
+    "productBaseId": 2,
+    "name": "Samsung Galaxy S22",
+    "status": 1,
+    "releaseDate": "2022-02-09",
+    "retireDate": "2025-02-09",
+    "sapOrderingAuxId": 12,
+    "retrievable": true,
+    "purchasePrice": 699.0,
+    "phPrice": 22.99,
+    "reference": "SGS22-WHT",
+    "inwarehousePrice": 350.0,
+    "currency": "EUR",
+    "stockProperty": "Main Warehouse"
+  }
+]

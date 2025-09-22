@@ -1,0 +1,10 @@
+{
+  "errors": [
+    {
+      "code": "not found",
+      "title": "User not found",
+      "ref": "315455",
+      "details": "Sorry but provided user details do not match any user in our system. Please check the details and try again."
+    }
+  ]
+}

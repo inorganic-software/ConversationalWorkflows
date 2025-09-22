@@ -1,0 +1,18 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPathPattern": "/orgs/orange/base_products/products/search",
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": "$[?(@.name =~ /^[mM][oO][tT][oO][rR][oO][lL][aA]\\s+[eE][dD][gG][eE]\\s*30$/)]"
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "product/motorola-edge-30.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

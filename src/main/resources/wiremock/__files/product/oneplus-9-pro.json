@@ -1,0 +1,18 @@
+[
+  {
+    "productId": 5,
+    "productBaseId": 5,
+    "name": "OnePlus 9 Pro",
+    "status": 1,
+    "releaseDate": "2021-03-23",
+    "retireDate": "2024-03-23",
+    "sapOrderingAuxId": 20,
+    "retrievable": true,
+    "purchasePrice": 729.0,
+    "phPrice": 23.99,
+    "reference": "OP9P-GRN",
+    "inwarehousePrice": 370.0,
+    "currency": "EUR",
+    "stockProperty": "Warehouse North"
+  }
+]

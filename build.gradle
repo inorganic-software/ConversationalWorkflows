@@ -1,0 +1,103 @@
+plugins {
+    id 'java'
+    id 'io.quarkus'
+    id 'checkstyle'
+    alias(libs.plugins.spotless)
+}
+
+repositories {
+    mavenCentral()
+    mavenLocal()
+}
+
+dependencies {
+    implementation enforcedPlatform("${quarkusPlatformGroupId}:${quarkusPlatformArtifactId}:${quarkusPlatformVersion}")
+    implementation enforcedPlatform(libs.quarkus.langchain4j.bom)
+    implementation enforcedPlatform(libs.quarkus.mcp.server.bom)
+    implementation 'io.quarkus:quarkus-rest-jackson'
+    implementation 'io.quarkus:quarkus-rest-qute'
+    implementation 'io.quarkus:quarkus-websockets-next'
+    implementation 'io.quarkus:quarkus-oidc'
+    implementation 'io.quarkiverse.langchain4j:quarkus-langchain4j-oidc-mcp-auth-provider'
+    implementation 'io.quarkiverse.mcp:quarkus-mcp-server-sse'
+    implementation libs.importmap
+    runtimeOnly libs.lit
+    runtimeOnly libs.wc.chatbot
+    implementation libs.quarkus.langchain4j.gemini
+    //implementation libs.quarkus.langchain4j.ollama
+    implementation libs.wiremock
+    implementation libs.temporal
+
+    testImplementation 'io.quarkus:quarkus-junit5'
+    testImplementation 'io.rest-assured:rest-assured'
+}
+
+group 'com.inorganic'
+version '1.0.0-SNAPSHOT'
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_21
+    targetCompatibility = JavaVersion.VERSION_21
+}
+
+test {
+    systemProperty "java.util.logging.manager", "org.jboss.logmanager.LogManager"
+}
+compileJava {
+    options.encoding = 'UTF-8'
+    options.compilerArgs << '-parameters'
+}
+
+compileTestJava {
+    options.encoding = 'UTF-8'
+}
+
+spotless {
+    format 'misc', {
+        target '*.gradle.kts', '*.md', '.gitignore'
+        trimTrailingWhitespace()
+        leadingSpacesToTabs(4)
+        endWithNewline()
+        targetExclude '**/build/**', '**/build/generated/**', '.*build/generated-sources/.*', 'README.md'
+    }
+
+    java {
+        importOrder 'java', 'javax', 'jakarta', 'org', 'com', 'io'
+        removeUnusedImports()
+        toggleOffOn()
+
+        cleanthat()
+        formatAnnotations()
+        targetExclude '**/build/**', '**/build/generated/**', '.*build/generated-sources/.*'
+    }
+}
+
+checkstyle {
+    toolVersion = '10.12.4'
+    configProperties = [
+            'suppressionFile': "${rootDir}/config/checkstyle/suppressions.xml"
+    ]
+}
+
+
+tasks.named('checkstyleMain', Checkstyle) {
+    ignoreFailures = false
+}
+
+tasks.named('checkstyleTest', Checkstyle) {
+    ignoreFailures = false
+}
+
+tasks.named('build') {
+    dependsOn 'spotlessApply'
+    dependsOn 'checkstyleMain'
+    dependsOn 'checkstyleTest'
+
+    doLast {
+        def checkstyleMainTask = tasks.named('checkstyleMain').get()
+        def checkstyleTestTask = tasks.named('checkstyleTest').get()
+        if (checkstyleMainTask.state.failure != null || checkstyleTestTask.state.failure != null) {
+            throw new GradleException("checkstyleMain task failed. Build is aborted.")
+        }
+    }
+}

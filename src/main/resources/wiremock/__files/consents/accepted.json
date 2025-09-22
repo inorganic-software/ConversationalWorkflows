@@ -1,0 +1,13 @@
+{
+  "statements": [
+    {
+      "id": "C03",
+      "choice": 1,
+      "choice_type": "ACCEPTANCE",
+      "text": "Comunicaciones comerciales por email",
+      "description": "Aceptas recibir campañas promocionales por email.",
+      "child_statements": [{}]
+    }
+  ],
+  "locale": "es_ES"
+}

@@ -1,0 +1,18 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPathPattern": "/orgs/orange/base_products/products/search",
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": "$[?(@.name =~ /^[sS][aA][mM][sS][uU][nN][gG](\\s+[gG][aA][lL][aA][xX][yY]\\s*[sS]22)?$/)]"
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "product/samsung-galaxy-s22.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

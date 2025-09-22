@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPathPattern": "/v2/orgs/orange/customers/.*/consents",
+    "queryParameters": {
+      "view": { "equalTo": "'PORTFOLIO'" },
+      "choice": { "equalTo": "'choice=PENDING'" }
+    }
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "consents/pending.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

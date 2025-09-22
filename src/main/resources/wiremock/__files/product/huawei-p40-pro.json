@@ -1,0 +1,18 @@
+[
+  {
+    "productId": 8,
+    "productBaseId": 8,
+    "name": "Huawei P40 Pro",
+    "status": 1,
+    "releaseDate": "2020-03-26",
+    "retireDate": "2023-12-31",
+    "sapOrderingAuxId": 26,
+    "retrievable": true,
+    "purchasePrice": 749.0,
+    "phPrice": 24.49,
+    "reference": "HWP40-BLU",
+    "inwarehousePrice": 380.0,
+    "currency": "EUR",
+    "stockProperty": "Legacy Stock"
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPathPattern": "/orgs/orange/base_products/products/search",
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": "$[?(@.name =~ /^([gG][oO][oO][gG][lL][eE])(\\s+[pP]ixel)?(\\s+[6])?$/)]"
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "product/google-pixel-6.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

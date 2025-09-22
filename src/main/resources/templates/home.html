@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" type="image/png" href="favicon.ico">
+
+    <script src="/_importmap/dynamic-importmap.js"></script>
+
+    <script type="module">
+        import 'components/demo-title.js';
+        import 'components/demo-chat.js';
+        import 'wc-chatbot';
+    </script>
+
+    <link rel="stylesheet" href="fonts/red-hat-font.min.css">
+
+    <title>Temporal | MasOrange | IVR</title>
+
+    <style>
+        :root {
+            --main-bg-color: hsla(0, 0%, 100%, 0.21);
+            --main-highlight-text-color: #fcb11c;
+        }
+
+        body {
+            margin: 0;
+            width: 100%;
+            min-height: 100vh;
+            font-family: 'Red Hat Text', sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            background: var(--main-bg-color);
+            overflow-y: auto;
+        }
+
+        chat-bot {
+            --chatbot-avatar-bg-color: var(--main-highlight-text-color);
+            --chatbot-avatar-margin: 10%;
+            --chatbot-header-bg-color: var(--main-highlight-text-color);
+            --chatbot-header-title-color: #FFFFFF;
+            --chatbot-body-bg-color: var(--main-bg-color);
+            --chatbot-send-button-color: var(--main-highlight-text-color);
+            --chatbot-container-width: 500px;
+            --chatbot-container-height: 600px;
+        }
+
+        .middle {
+            margin-top: 2em;
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+        }
+
+        .demo-title {
+            display: block;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+<demo-title class="demo-title">
+    User logged {name} / {accessToken}
+</demo-title>
+
+<div class="middle">
+    <demo-chat>
+        <chat-bot></chat-bot>
+    </demo-chat>
+</div>
+
+</body>
+</html>

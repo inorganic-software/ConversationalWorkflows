@@ -1,0 +1,18 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPathPattern": "/orgs/orange/base_products/products/search",
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": "$[?(@.name =~ /^([hH][uU][aA][wW][eE][iI])(\\s+[pP]40)?(\\s+[pP]ro)?$/)]"
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "product/huawei-p40-pro.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

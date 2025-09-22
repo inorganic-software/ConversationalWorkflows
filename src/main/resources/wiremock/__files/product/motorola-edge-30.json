@@ -1,0 +1,18 @@
+[
+  {
+    "productId": 7,
+    "productBaseId": 7,
+    "name": "Motorola Edge 30",
+    "status": 1,
+    "releaseDate": "2022-04-27",
+    "retireDate": "2025-04-27",
+    "sapOrderingAuxId": 24,
+    "retrievable": true,
+    "purchasePrice": 499.0,
+    "phPrice": 18.99,
+    "reference": "EDGE30-GRY",
+    "inwarehousePrice": 270.0,
+    "currency": "EUR",
+    "stockProperty": "Store Room A"
+  }
+]

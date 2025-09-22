@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPathPattern": "/orgs/orange/stock"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "stock/stock_all_ok.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

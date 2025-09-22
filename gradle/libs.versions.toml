@@ -1,0 +1,24 @@
+[versions]
+quarkusPlatformVersion="3.26.3"
+langchain4j="1.1.0"
+importmap = "1.0.11"
+lit = "3.2.0"
+wc-chatbot = "0.2.1"
+wiremock = "2.35.0"
+temporal="1.30.1"
+
+# plugins"
+spotlessVersion="7.1.0"
+
+[libraries]
+quarkus-langchain4j-gemini = { module = "io.quarkiverse.langchain4j:quarkus-langchain4j-ai-gemini", version.ref ="langchain4j"}
+quarkus-langchain4j-bom = { module = "io.quarkiverse.langchain4j:quarkus-langchain4j-bom", version.ref = "langchain4j" }
+quarkus-mcp-server-bom = { module = "io.quarkus.platform:quarkus-mcp-server-bom", version.ref = "quarkusPlatformVersion" }
+importmap = { module = "io.mvnpm:importmap", version.ref = "importmap" }
+lit = { module = "org.mvnpm:lit", version.ref = "lit" }
+wc-chatbot = { module = "org.mvnpm:wc-chatbot", version.ref = "wc-chatbot" }
+wiremock = { module = "com.github.tomakehurst:wiremock-jre8", version.ref = "wiremock" }
+temporal = {module= "io.temporal:temporal-sdk", version.ref="temporal"}
+
+[plugins]
+spotless = { id = "com.diffplug.spotless", version.ref = "spotlessVersion" }

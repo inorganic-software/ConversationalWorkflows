@@ -1,0 +1,112 @@
+[
+  {
+    "stockId": 1,
+    "productId": 1,
+    "vwarehouseId": 101,
+    "totalAmount": 25,
+    "availableAmount": 100,
+    "reservedAmount": 45,
+    "stockDate": "2022-02-20",
+    "reference": "IPH13-BLK",
+    "prepickingOrders": 10
+  },
+  {
+    "stockId": 2,
+    "productId": 2,
+    "vwarehouseId": 102,
+    "totalAmount": 50,
+    "availableAmount": 200,
+    "reservedAmount": 30,
+    "stockDate": "2022-03-01",
+    "reference": "SGS22-WHT",
+    "prepickingOrders": 15
+  },
+  {
+    "stockId": 3,
+    "productId": 3,
+    "vwarehouseId": 103,
+    "totalAmount": 30,
+    "availableAmount": 80,
+    "reservedAmount": 25,
+    "stockDate": "2022-03-10",
+    "reference": "PIX6-BLK",
+    "prepickingOrders": 12
+  },
+  {
+    "stockId": 4,
+    "productId": 4,
+    "vwarehouseId": 104,
+    "totalAmount": 40,
+    "availableAmount": 90,
+    "reservedAmount": 20,
+    "stockDate": "2022-03-15",
+    "reference": "MI11-BLU",
+    "prepickingOrders": 8
+  },
+  {
+    "stockId": 5,
+    "productId": 5,
+    "vwarehouseId": 105,
+    "totalAmount": 35,
+    "availableAmount": 110,
+    "reservedAmount": 28,
+    "stockDate": "2022-03-18",
+    "reference": "OP9P-GRN",
+    "prepickingOrders": 14
+  },
+  {
+    "stockId": 6,
+    "productId": 6,
+    "vwarehouseId": 106,
+    "totalAmount": 28,
+    "availableAmount": 70,
+    "reservedAmount": 18,
+    "stockDate": "2022-03-22",
+    "reference": "XPR5-SLV",
+    "prepickingOrders": 9
+  },
+  {
+    "stockId": 7,
+    "productId": 7,
+    "vwarehouseId": 107,
+    "totalAmount": 45,
+    "availableAmount": 150,
+    "reservedAmount": 35,
+    "stockDate": "2022-03-25",
+    "reference": "EDGE30-GRY",
+    "prepickingOrders": 11
+  },
+  {
+    "stockId": 8,
+    "productId": 8,
+    "vwarehouseId": 108,
+    "totalAmount": 38,
+    "availableAmount": 95,
+    "reservedAmount": 22,
+    "stockDate": "2022-03-28",
+    "reference": "P40PRO-BLK",
+    "prepickingOrders": 7
+  },
+  {
+    "stockId": 9,
+    "productId": 9,
+    "vwarehouseId": 109,
+    "totalAmount": 20,
+    "availableAmount": 60,
+    "reservedAmount": 15,
+    "stockDate": "2022-04-01",
+    "reference": "GTNEO3-BLU",
+    "prepickingOrders": 6
+  },
+  {
+    "stockId": 10,
+    "productId": 10,
+    "vwarehouseId": 110,
+    "totalAmount": 32,
+    "availableAmount": 75,
+    "reservedAmount": 21,
+    "stockDate": "2022-04-05",
+    "reference": "XR20-RED",
+    "prepickingOrders": 13
+  }
+]

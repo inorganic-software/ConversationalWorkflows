@@ -1,0 +1,13 @@
+{
+  "statements": [
+    {
+      "id": "C02",
+      "choice": 0,
+      "choice_type": "REJECTION",
+      "text": "Publicidad personalizada",
+      "description": "Has rechazado publicidad basada en tus intereses.",
+      "child_statements": [{}]
+    }
+  ],
+  "locale": "es_ES"
+}
